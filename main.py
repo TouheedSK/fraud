@@ -26,7 +26,7 @@ class demo(Resource) :
 		# print( response )
 		return response
 
-api.add_resource (demo, "/demo")
+api.add_resource (demo, "/")
 
 if __name__ == "__main__":
 	app.run(debug=True)
