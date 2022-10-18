@@ -33,7 +33,8 @@ if(st.button('Submit')):
         }
 
         # api call
-        url = "http://127.0.0.1:5000/"
+#         url = "http://127.0.0.1:5000/"
+        url = "https://ftbc.herokuapp.com/"
         print(data)
         response = requests.get(url + "demo", data)
         response = response.json()
